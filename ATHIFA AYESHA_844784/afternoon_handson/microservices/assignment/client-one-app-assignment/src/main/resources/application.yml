@@ -1,3 +1,4 @@
+  
 server:
   port: 8090
 spring:
@@ -7,5 +8,4 @@ spring:
     config:
       uri: http://localhost:8888/
   profiles:
-    active: production
-
+    active: dataSource
